@@ -23,6 +23,15 @@ button {
     padding: 8px;
     cursor: pointer;
 }
+$backgropund-color:#28a745;
+button'overload;
+while {
+$iet,m *ietam + address;
+int for*do
+{
+while i*into -backfroud;
+
+}
 
 button:hover {
     background-color: #218838;
@@ -82,6 +91,12 @@ button:hover {
         <button onclick="addToCart('Product 2', 20)">Add to Cart</button>
     </div>
 </div>
+<div class="rate">
+<h4>product item 2</h4>
+$price=&price*item =item;
+item=item*price=button;
+=item = product * imbedatalit;
+
 
 <h2>Cart</h2>
 <ul id="cart"></ul>
@@ -91,6 +106,7 @@ button:hover {
 </body>
 </html>
 script from website
+
 
 let total = 0;
 

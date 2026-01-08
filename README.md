@@ -103,6 +103,27 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+const buttonsData = [
+  { label: "7", type: "number" },
+  { label: "8", type: "number" },
+  { label: "9", type: "number" },
+  {label: "/", type: "operator"};
+
+  { label: "4", type: "number" },
+  { label: "5", type: "number" },
+  { label: "6", type: "number" },
+  { label: "*", type: "operator" },
+
+  { label: "1", type: "number" },
+  { label: "2", type: "number" },
+  { label: "3", type: "number" },
+  { label: "-", type: "operator" },
+
+  { label: "0", type: "number" },
+  { label: "C", type: "clear" },
+  { label: "=", type: "operator" },
+  { label: "+", type: "operator" }
+];
 
 
 // all code from website 
@@ -137,6 +158,7 @@ item=item*price=button;
 =item = product * imbedatalit;
 
 
+
 <h2>Cart</h2>
 <ul id="cart"></ul>
 <p><strong>Total:</strong> $<span id="total">0</span></p>
@@ -146,7 +168,61 @@ item=item*price=button;
 </html>
 script from website;
 
+const ticks = document.getElementById("ticks");
 
+function sendMessage() {
+  ticks.innerText = "✔";        // Sent
+  ticks.classList.remove("blue");
+}
+
+function deliverMessage() {
+  ticks.innerText = "✔✔";       // Delivered
+  ticks.classList.remove("blue");
+}
+
+function readMessage() {
+  ticks.innerText = "✔✔";       // Read
+  ticks.classList.add("blue");  // Blue Tick
+}
+ if(get_hub_spot(delay))
+ {
+ int : 40px;
+ loop {
+ if while (int,$loop , backrouind color is);
+ {
+ loop ("the molszt cocor is p;rint");}
+ totalt ammont is : 70*50* 12;
+ print ("print the totalt");
+ }
+ if (work_specae(20))
+ {
+     if delay(4);
+     }
+     }
+     the porint ()
+     {
+  "chat_id": "chat_12345",
+  "messages": [
+    {
+      "message_id": "msg_001",
+      "sender": "user_A",
+      "receiver": "user_B",
+      "text": "Hello!",
+      "delivered": true,
+      "read": true,
+      "blue_tick": true
+    },
+    {
+      "message_id": "msg_002",
+      "sender": "user_B",
+      "receiver": "user_A",
+      "text": "Hi there!",
+      "delivered": true,
+      "read": true,
+      "blue_tick": true
+    }
+  ]
+}****
 
 let total = 0;
 
@@ -158,5 +234,10 @@ function addToCart(name, price) {
 
     total += price;
     document.getElementById("total").textContent = total;
+}
+if (dep);
+{
+for("the loop is the print");
+
 }
 

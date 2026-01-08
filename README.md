@@ -224,6 +224,23 @@ function readMessage() {
   ]
 }****
 
+{
+  "message_id": "001",
+  "sender": {
+    "id": "user_1",
+    "read": true,
+    "blue_tick": true
+  },
+  "receiver": {
+    "id": "user_2",
+    "read": true,
+    "blue_tick": true
+  },
+  "status": "read_by_both"
+}
+
+
+
 let total = 0;
 
 function addToCart(name, price) {
